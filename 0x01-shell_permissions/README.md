@@ -1,1 +1,3 @@
-Shell Permissions
+### Resources:
+
+[Permissions](https://linuxcommand.org/lc3_lts0090.php)
