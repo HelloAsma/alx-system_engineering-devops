@@ -34,7 +34,7 @@
 
 [Pull-request](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)
 
-[Semantic Versioning 2.0.0])(https://semver.org/)
+[Semantic Versioning 2.0.0](https://semver.org/)
 
 * Here are a few nice links about over engineering:
 
