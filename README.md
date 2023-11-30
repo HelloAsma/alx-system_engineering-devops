@@ -15,6 +15,8 @@
 
 [man uname](https://linux.die.net/man/1/uname)
 
+[A host operating system](https://lemp.io/what-is-a-host-operating-system-2/)
+
 * 0x01. Emacs
 
 [A Guided Tour of Emacs](https://www.gnu.org/software/emacs/tour/)
