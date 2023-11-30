@@ -27,3 +27,20 @@
 [Learn Docker to the next level](https://www.simplilearn.com/tutorials/docker-tutorial/getting-started-with-docker)
 
 [Docker tutorial doc](https://docker-curriculum.com/)
+
+## man or help:
+
+* cd
+* ls
+* pwd
+* less
+* file
+* ln
+* cp
+* mv
+* rm
+* mkdir
+* type
+* which
+* help
+* man
