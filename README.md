@@ -1,6 +1,6 @@
 # Shell, navigation
 
-![Uploading image.png…]()
+![image](https://github.com/pixie-a/alx-system_engineering-devops/assets/101095081/7c154a11-9eb0-43fe-af70-3d19c39116a7)
 
 
 ## Resources:
