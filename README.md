@@ -1,6 +1,6 @@
-![image](https://github.com/pixie-a/alx-system_engineering-devops/assets/101095081/5e31b1dd-819c-4d98-8f76-36cd7e691e36)# Shell, navigation
+# Shell, navigation
 
-![image](https://github.com/pixie-a/alx-system_engineering-devops/assets/101095081/87ba0e6f-f3ef-4531-9dc2-d775c4bf5d2c)
+![image](https://github.com/pixie-a/alx-system_engineering-devops/assets/101095081/5e31b1dd-819c-4d98-8f76-36cd7e691e36)
 
 
 ## Resources:
