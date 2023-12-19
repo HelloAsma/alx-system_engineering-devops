@@ -1,5 +1,8 @@
 ![image](https://github.com/pixie-a/alx-system_engineering-devops/assets/101095081/8a63168a-67f4-48b3-9dfd-e67ee7cacce7)
 
+## General
+* What does RTFM mean?
+* What is a Shebang
 
 ## Resources:
 
