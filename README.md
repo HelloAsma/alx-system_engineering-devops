@@ -2,6 +2,7 @@
 
 ![Uploading image.png…]()
 
+
 ## Resources:
 
 * [Linux navigation](https://linuxcommand.org/lc3_lts0020.php)
