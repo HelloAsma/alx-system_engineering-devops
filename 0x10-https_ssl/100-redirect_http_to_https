@@ -48,9 +48,9 @@ frontend pixie-a-frontend-https
 
 backend pixie-a-backend
         balance roundrobin
-        server 151666-web-01 18.206.208.0:80 check
-        server 151666-web-02 100.25.12.224:80 check
+        server 520572-web-01 54.146.89.28:80 check
+        server 520572-web-02 100.27.5.183:80 check
 
 
-        #server 151666-web-01 18.206.208.0:80 check
-        #server 151666-web-02 100.25.12.224:80 check
+        #server 520572-web-01 54.146.89.28:80 check
+        #server 520572-web-02 100.27.5.183:80 check
