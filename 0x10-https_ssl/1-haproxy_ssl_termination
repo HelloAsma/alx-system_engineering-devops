@@ -34,24 +34,23 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
+
 frontend pixie-a-http
-        bind 0.0.0.0:80
+        bind *:80
+        mode http
+        http-request redirect scheme https code 301 unless { ssl_fc }
         http-request set-header X_Forwarded-Proto http
         default_backend pixie-a-backend
 
+
 frontend pixie-a-https
-        bind 0.0.0.0:443 ssl crt /etc/haproxy/certs/www.thepadj.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/pixie-a.tech.pem
         http-request set-header X-Forwarded-Proto https
-        acl    letsencrypt-acl path_beg /.well-known/acme-challenge/
-        use_backend letsencrypt-backend if letsencrypt-acl
         default_backend pixie-a-backend
+
 
 backend pixie-a-backend
         balance roundrobin
-        redirect scheme https if !{ ssl_fc }
         server 520572-web-01 54.146.89.28:80 check
         server 520572-web-02 100.27.5.183:80 check
 
-
-backend letsencrypt-backend
-        server letsencrypt 127.0.0.1:54321
