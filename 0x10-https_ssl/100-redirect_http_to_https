@@ -18,21 +18,21 @@ defaults
     option  forwardfor
     option  http-server-close
 
-frontend www-http
-    bind   0.0.0.0:80
+frontend pixie-a-http
+    bind 0.0.0.0:80
     reqadd X-Forwarded-Proto:\ http
-    default_backend www-backend
+    default_backend pixie-a-backend
     redirect scheme https code 301 if !{ ssl_fc }
 
-frontend www-https
-    bind   0.0.0.0:443 ssl crt /etc/haproxy/certs/www.bdbnb.site.pem
+frontend pixie-a-https
+    bind 0.0.0.0:443 ssl crt /etc/haproxy/certs/www.bdbnb.site.pem
     reqadd X-Forwarded-Proto:\ https
     acl    letsencrypt-acl path_beg /.well-known/acme-challenge/
     use_backend letsencrypt-backend if letsencrypt-acl
-    default_backend www-backend
+    default_backend pixie-a-backend
 
-backend www-backend
-    balance  roundrobin
+backend pixie-a-backend
+    balance roundrobin
     redirect scheme https if !{ ssl_fc }
     server 520572-web-01 54.146.89.28:80 check
     server 520572-web-02 100.27.5.183:80 check
